@@ -1,4 +1,5 @@
 name: "A5: Interactive visualizations"
+output_dir: "docs"
 navbar:
   title: "A5: Interactive visualizations"
   left:
@@ -10,3 +11,7 @@ navbar:
       href: plotly.html
     - text: "Altair"
       href: altair.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
