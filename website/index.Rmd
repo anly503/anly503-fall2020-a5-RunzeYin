@@ -4,10 +4,22 @@ title: "A5: Interactive Visualizations"
 
 ## The questions I'm trying to answer with each visualization:
 
-### (plotly) 1. For household 04, at a certain time on New Year's Day, which particular plug/appliance consumes most power?
+
+
+### Plotly:
+
+### For household 04, at a certain time on New Year's Day, which particular plug/appliance consumes most power?
+
+
 
 You can choose a specific hour of the day in the bottom and click on legend to check or uncheck certain appliances. The x-axis "time" is the minute and second of a particular hour. I think it is a very straightforward way to show which particular plug/appliance consumes most power at a particular time on a single day. I tried to visualize data in a whole month, but that seemed overwhelming. 
 
-### (altair) 2. For household 04, in a certain hour on New Year's Day, which real power phase consumes most power?
+
+
+### Altair:
+
+### For household 04, in a certain hour on New Year's Day, which real power phase consumes most power?
+
+
 
 You can hover over a line and the tooltips will tell you which real power phase it is and some additional details. I aggregate the consumption to hours because otherwise the dataset will be too big. And it is more clear and reasonable to differentiate between hours.
