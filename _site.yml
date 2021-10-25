@@ -1,0 +1,16 @@
+name: "A5: Interactive visualizations"
+output_dir: "docs"
+navbar:
+  title: "A5: Interactive visualizations"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Plotly"
+      href: plotly.html
+    - text: "Altair"
+      href: altair.html
+output:
+  html_document:
+    theme: cosmo
